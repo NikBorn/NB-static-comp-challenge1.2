@@ -7,8 +7,8 @@
 
 body {
   margin: 0px;
-  background-color: #AEAEAE;
-  color: #1E1E1E;
+  background-color: #2A48FF;
+  color: #FFFFFF;
 }
 
 button {
@@ -64,7 +64,7 @@ h5 {
 }
 
 .resume-icon {
-  background-image: url("images/portfolio-small.svg");
+  background-image: url("images/portfolio-small-hover.svg");
 }
 
 .resume-icon:hover {
@@ -72,7 +72,7 @@ h5 {
 }
 
 .contact-small-icon {
-  background-image: url("images/contact-small.svg");
+  background-image: url("images/contact-small-hover.svg");
 }
 
 .contact-small-icon:hover {
@@ -80,7 +80,7 @@ h5 {
 }
 
 .blog-icon {
-  background-image: url("images/blog.svg");
+  background-image: url("images/blog-hover.svg");
 }
 
 .blog-icon:hover {
@@ -88,7 +88,7 @@ h5 {
 }
 
 .education-icon {
-  background-image: url("images/education.svg");
+  background-image: url("images/education-hover.svg");
 }
 
 .education-icon:hover {
@@ -96,7 +96,7 @@ h5 {
 }
 
 .experience-icon {
-  background-image: url("images/idea.svg");
+  background-image: url("images/idea-hover.svg");
 }
 
 .experience-icon:hover {
@@ -104,7 +104,7 @@ h5 {
 }
 
 .social-icon {
-  background-image: url("images/social-menu.svg");
+  background-image: url("images/social-menu-hover.svg");
 }
 
 .social-icon:hover {
@@ -112,7 +112,7 @@ h5 {
 }
 
 .contact-icon {
-  background-image: url("images/contact.svg");
+  background-image: url("images/contact-hover.svg");
 }
 
 .contact-icon:hover {
@@ -120,7 +120,27 @@ h5 {
 }
 
 .portfolio-icon {
-  background-image: url("images/portfolio.svg");
+  background-image: url("images/portfolio-hover.svg");
+}
+
+.portfolio {
+  background-color: #2036BF;
+}
+
+.contact {
+  background-color: #15247F;
+}
+
+.experience {
+  background-color: #15247F;
+}
+
+.profile {
+  background-color: #15247F;
+}
+
+.education {
+  background-color: #2036BF;
 }
 
 .portfolio-icon:hover {
@@ -128,7 +148,7 @@ h5 {
 }
 
 .profile-icon {
-  background-image: url("images/profile.svg");
+  background-image: url("images/profile-hover.svg");
 }
 
 .profile-icon:hover {
@@ -145,7 +165,7 @@ h5 {
 }
 
 .square:hover {
-  background-color: #4DA8FF;
+  background-color: #1C30FF;
   border-color: #DFE2E6;
   color: #DFE2E6;
   font-weight: 800;
