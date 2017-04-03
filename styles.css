@@ -1,0 +1,235 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #AEAEAE;
+  color: #1E1E1E;
+}
+
+button {
+  background-color: inherit;
+  border: 2px solid #2C2A32;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: #4DA8FF;
+  border-color: #DFE2E6;
+  color: #DFE2E6;
+  font-weight: 700;
+}
+
+h5 {
+  margin: 0px;
+}
+
+.resume-btn {
+  margin-right: 10px;
+}
+
+.biography {
+  padding: 10px;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px auto 5px auto;
+}
+
+.resume-icon,
+.contact-small-icon {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.resume-icon {
+  background-image: url("images/portfolio-small.svg");
+}
+
+.resume-icon:hover {
+  background-image: url("images/portfolio-small-hover.svg");
+}
+
+.contact-small-icon {
+  background-image: url("images/contact-small.svg");
+}
+
+.contact-small-icon:hover {
+  background-image: url("images/contact-small-hover.svg");
+}
+
+.blog-icon {
+  background-image: url("images/blog.svg");
+}
+
+.blog-icon:hover {
+  background-image: url("images/blog-hover.svg");
+}
+
+.education-icon {
+  background-image: url("images/education.svg");
+}
+
+.education-icon:hover {
+  background-image: url("images/education-hover.svg");
+}
+
+.experience-icon {
+  background-image: url("images/idea.svg");
+}
+
+.experience-icon:hover {
+  background-image: url("images/idea-hover.svg");
+}
+
+.social-icon {
+  background-image: url("images/social-menu.svg");
+}
+
+.social-icon:hover {
+  background-image: url("images/social-menu-hover.svg");
+}
+
+.contact-icon {
+  background-image: url("images/contact.svg");
+}
+
+.contact-icon:hover {
+  background-image: url("images/contact-hover.svg");
+}
+
+.portfolio-icon {
+  background-image: url("images/portfolio.svg");
+}
+
+.portfolio-icon:hover {
+  background-image: url("images/portfolio-hover.svg");
+}
+
+.profile-icon {
+  background-image: url("images/profile.svg");
+}
+
+.profile-icon:hover {
+  background-image: url("images/profile-hover.svg");
+}
+
+.square {
+  text-align: center;
+  border-width: 1px 1px 1px 1px;
+  border-color: #2C2A32;
+  border-style: solid;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.square:hover {
+  background-color: #4DA8FF;
+  border-color: #DFE2E6;
+  color: #DFE2E6;
+  font-weight: 800;
+  border-width: 5px;
+
+}
+
+.profile-picture {
+  width: 100vw;
+  height: 42vh;
+  background-image: url("images/chucklandscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media screen and (min-width: 520px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .square {
+    width: 50%;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profile-picture {
+    /*background-position: 0px -20px;*/
+    /*min-height: 480px;*/
+  }
+
+  .portfolio {
+    flex-grow: 2;
+  }
+
+  .biography {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 520px) {
+
+  .profile-picture {
+    background-position: 0px -40px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+
+  body {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  main {
+    width: 60%;
+    height: 100vh;
+  }
+
+  .profile-picture {
+    width: 40%;
+    background-image: url("images/chuckportfolio.jpg");
+    background-position: center;
+    height: 100vh;
+  }
+
+  .square {
+    width: 33.3333%;
+    min-height: 100px;
+  }
+
+  .portfolio {
+    flex-grow: none;
+  }
+
+  .biography {
+    width: 66.6666%;
+    max-height: 100px;
+    height: 207.78px;
+  }
+}
