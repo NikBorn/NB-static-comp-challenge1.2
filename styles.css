@@ -6,25 +6,25 @@
 }
 
 body {
-  margin: 0px;
   background-color: #2A48FF;
   color: #FFFFFF;
+  margin: 0px;
 }
 
 button {
   background-color: inherit;
-  border: 2px solid #2C2A32;
-  width: 130px;
-  height: 40px;
-  text-align: center;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
   font-size: 18px;
+  height: 40px;
   margin-bottom: 20px;
+  width: 130px;
+  text-align: center;
 }
 button:hover {
-  background-color: #4DA8FF;
+  background-color: #41C30FF;
   border-color: #DFE2E6;
   color: #DFE2E6;
-  font-weight: 700;
 }
 
 h5 {
@@ -40,42 +40,34 @@ h5 {
 }
 
 .clearfix:after {
+    clear: both;
     content: ' ';
     display: table;
-    clear: both;
 }
 
 .icon {
-  width: 50px;
-  height: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0px auto 5px auto;
+  height: 50px;
+  width: 50px;
 }
 
 .resume-icon,
 .contact-small-icon {
-  width: 18px;
-  height: 18px;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   display: inline-block;
+  height: 18px;
   vertical-align: middle;
+  width: 18px;
 }
 
 .resume-icon {
   background-image: url("images/portfolio-small-hover.svg");
 }
 
-.resume-icon:hover {
-  background-image: url("images/portfolio-small-hover.svg");
-}
-
 .contact-small-icon {
-  background-image: url("images/contact-small-hover.svg");
-}
-
-.contact-small-icon:hover {
   background-image: url("images/contact-small-hover.svg");
 }
 
@@ -83,15 +75,7 @@ h5 {
   background-image: url("images/blog-hover.svg");
 }
 
-.blog-icon:hover {
-  background-image: url("images/blog-hover.svg");
-}
-
 .education-icon {
-  background-image: url("images/education-hover.svg");
-}
-
-.education-icon:hover {
   background-image: url("images/education-hover.svg");
 }
 
@@ -99,23 +83,11 @@ h5 {
   background-image: url("images/idea-hover.svg");
 }
 
-.experience-icon:hover {
-  background-image: url("images/idea-hover.svg");
-}
-
 .social-icon {
   background-image: url("images/social-menu-hover.svg");
 }
 
-.social-icon:hover {
-  background-image: url("images/social-menu-hover.svg");
-}
-
 .contact-icon {
-  background-image: url("images/contact-hover.svg");
-}
-
-.contact-icon:hover {
   background-image: url("images/contact-hover.svg");
 }
 
@@ -127,15 +99,9 @@ h5 {
   background-color: #2036BF;
 }
 
+.experience,
+.profile,
 .contact {
-  background-color: #15247F;
-}
-
-.experience {
-  background-color: #15247F;
-}
-
-.profile {
   background-color: #15247F;
 }
 
@@ -156,30 +122,29 @@ h5 {
 }
 
 .square {
-  text-align: center;
-  border-width: 1px 1px 1px 1px;
   border-color: #2C2A32;
   border-style: solid;
-  padding: 10px;
+  border-width: 1px 1px 1px 1px;
   font-weight: 400;
+  padding: 10px;
+  text-align: center;
 }
 
 .square:hover {
   background-color: #1C30FF;
   border-color: #DFE2E6;
+  border-width: 5px;
   color: #DFE2E6;
   font-weight: 800;
-  border-width: 5px;
-
 }
 
 .profile-picture {
-  width: 100vw;
-  height: 42vh;
   background-image: url("images/chucklandscape.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  height: 42vh;
+  width: 100vw;
 }
 
 
@@ -190,17 +155,12 @@ h5 {
   }
 
   .square {
-    width: 50%;
-    min-height: 260px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
-  }
-
-  .profile-picture {
-    /*background-position: 0px -20px;*/
-    /*min-height: 480px;*/
+    justify-content: center;
+    min-height: 260px;
+    width: 50%;
   }
 
   .portfolio {
@@ -227,20 +187,20 @@ h5 {
   }
 
   main {
-    width: 60%;
     height: 100vh;
+    width: 60%;
   }
 
   .profile-picture {
-    width: 40%;
     background-image: url("images/chuckportfolio.jpg");
     background-position: center;
     height: 100vh;
+    width: 40%;
   }
 
   .square {
-    width: 33.3333%;
     min-height: 100px;
+    width: 33.3333%;
   }
 
   .portfolio {
@@ -248,8 +208,8 @@ h5 {
   }
 
   .biography {
-    width: 66.6666%;
-    max-height: 100px;
     height: 207.78px;
+    max-height: 100px;
+    width: 66.6666%;
   }
 }
